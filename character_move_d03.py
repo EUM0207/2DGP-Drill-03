@@ -81,6 +81,11 @@ def run_rectangle():
 
 def run_diagonal_lru():
     print('LRU')
+    
+    for x in range(0, 400, 10):
+        y = 550 / 400 * x
+        draw_boy(x, y)
+    
     pass
 
 def run_diagonal_lrd():
