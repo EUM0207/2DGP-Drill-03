@@ -16,6 +16,8 @@ def draw_boy(x, y):
     boy.draw_now(x,y)
     delay(0.01)
 
+
+
 def run_circle():
     print('CIRCLE')
     
@@ -28,6 +30,8 @@ def run_circle():
         y = r * math.sin(theta) + cy
     
         draw_boy(x, y)
+
+
 
 def run_top():
     print('TOP')
@@ -61,19 +65,45 @@ def run_left():
     
     pass
 
+
+
 def run_rectangle():
     print('RECTANGLE')
     
-    #run_top()
-    #run_right()
-    #run_bottom()
+    run_top()
+    run_right()
+    run_bottom()
     run_left()
     
     pass
 
+
+
+def run_diagonal_rlu():
+    print('RLU')
+    pass
+
+def run_diagonal_rld():
+    print('RLD')
+    pass
+
+
+
+def run_triangle():
+    print('TRIANGLE')
+    
+    run_bottom()
+    run_diagonal_rld()
+    run_diagonal_rlu()
+    
+    pass
+
+
+
 while True:
     #run_circle()
-    run_rectangle()
+    #run_rectangle()
+    run_triangle()
     
     delay(3)
     break
