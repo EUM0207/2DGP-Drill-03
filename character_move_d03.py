@@ -90,6 +90,11 @@ def run_diagonal_lru():
 
 def run_diagonal_lrd():
     print('LRD')
+    
+    for x in range(0, 400, 10):
+        y = 550 - (550 / 400 * x)
+        draw_boy(400 + x, y)
+    
     pass
 
 
@@ -97,8 +102,8 @@ def run_diagonal_lrd():
 def run_triangle():
     print('TRIANGLE')
     
-    run_bottom()
-    run_diagonal_lru()
+    #run_bottom()
+    #run_diagonal_lru()
     run_diagonal_lrd()
     
     pass
