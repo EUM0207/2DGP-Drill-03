@@ -102,8 +102,8 @@ def run_diagonal_lrd():
 def run_triangle():
     print('TRIANGLE')
     
-    #run_bottom()
-    #run_diagonal_lru()
+    run_bottom()
+    run_diagonal_lru()
     run_diagonal_lrd()
     
     pass
@@ -111,8 +111,8 @@ def run_triangle():
 
 
 while True:
-    #run_circle()
-    #run_rectangle()
+    run_circle()
+    run_rectangle()
     run_triangle()
     
     delay(3)
