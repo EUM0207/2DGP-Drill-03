@@ -79,12 +79,12 @@ def run_rectangle():
 
 
 
-def run_diagonal_rlu():
-    print('RLU')
+def run_diagonal_lru():
+    print('LRU')
     pass
 
-def run_diagonal_rld():
-    print('RLD')
+def run_diagonal_lrd():
+    print('LRD')
     pass
 
 
@@ -93,8 +93,8 @@ def run_triangle():
     print('TRIANGLE')
     
     run_bottom()
-    run_diagonal_rld()
-    run_diagonal_rlu()
+    run_diagonal_lru()
+    run_diagonal_lrd()
     
     pass
 
